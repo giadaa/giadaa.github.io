@@ -48,3 +48,11 @@ $("#show-asia").click(function(){
   $(".europe").hide();
   $(".asia").appendTo(".row1");
 });
+
+//reset filters
+$('#reset-filters').click(function(){
+  $(".asia").show();
+  $(".south-america").show();
+  $(".north-america").show();
+  $(".europe").show();
+});

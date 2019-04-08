@@ -90,3 +90,8 @@
   background: #FF4301;
   color: white;
 }
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
