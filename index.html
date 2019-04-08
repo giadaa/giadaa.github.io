@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Snowboard Base</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- Nav Bar-->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="/Users/JadeHolden/Desktop/snowboarding_website/index.html">Snowboard Base</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-sm-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="/Users/JadeHolden/Desktop/snowboarding_website/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_container">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Users/JadeHolden/Desktop/snowboarding_website/destinations.html">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Users/JadeHolden/Desktop/snowboarding_website/gallery.html">Gallery</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-sm-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav><!-- end of nav bar -->
+
+  <!-- Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Snowboard Base</h1>
+      <p class="lead">The place where snowboarders of all skill levels can come to hang out</p>
+    </div>
+  </div><!-- end of jumbotron div -->
+
+  <!-- About container-->
+  <div id="about_container">
+    <h1 class="about_header">About Us</h1>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-8">
+        <p>Snowboard Base started as small team of passionate snowboard lovers who wanted to create a space where
+          snowboarders of all skill levels could come toghether and share their love for the sport. Our community has
+          grown over the years and we only have you guys to thank. Snowboarding is an amazing sport and we want to show
+          it to the world. This webste is a way of showing how powerful this community is too. </p>
+      </div>
+      <div class="col-sm-4">
+        <img src="Images/about1.jpg" height=212px width=320px alt="Snowboarder" class="zoom">
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="Images/about2.jpg" height=212px width=320px alt="Snowboarder" class="zoom">
+      </div>
+      <div class="col-sm-8">
+        <p>We are currently in the process of implementing a forum where all boarders can come together
+          and give their own tips and share their experiences. In doing this we want to connect more people
+          within the snowboarding community with eachother and create an environment where we can all thrive.
+          This feature is coming soon, so hang in there. You'll be able to create an account and have endless
+          conversations with other boarders about how amazing the powder was today or tell the world about a
+          trick you managed to pull off after tons of practice. </p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-8">
+        <p>We want to show off all of the amazing achievements of this community. Therefore we have a gallery
+          compiled of our users' photos showing off gnarly tricks as well as the amazing scenery they've seen
+          on their journeys. We want the world to see your amazing tricks, so go ahead and <a href="/Users/JadeHolden/Desktop/snowboarding_website/index.html#upload_image">
+            upload your photos to us right here. </a> Just enter your name and email so we know who our photos are from. All photos are fully credited.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="Images/about3.jpg" height=180px width=295px alt="Snowboarder" class="zoom">
+      </div>
+    </div>
+  </div><!-- end of about div -->
+
+  <!-- Image upload container-->
+  <div id="upload_image">
+    <h1>Submit Your Photos</h1>
+    <br>
+    <br>
+    <p>Submit your best snowboarding photos taken on the slopes to be featured and credited in our public gallery. <a href="/Users/JadeHolden/Desktop/snowboarding_website/gallery.html">Click here to check out the photos we already have.</a></p>
+    <br>
+    <br>
+    <div class="container">
+      <div style="max-width: 650px; margin: auto;">
+        <form id="upload-image-form" action="" method="post" enctype="multipart/form-data">
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <br>
+          <p class="lead">Select a PNG or JPEG image. Maximum size 500 KB.</p>
+          <br>
+          <div class="form-group">
+            <input type="file" name="file" id="file" required>
+          </div>
+          <button class="btn btn-lg btn-primary" id="upload-button" type="submit">Submit</button>
+        </form>
+        <br>
+      </div>
+    </div>
+  </div><!-- end of upload div -->
+
+
+  <!-- Footer-->
+  <div class="container-fluid px-lg-5" id="footer">
+    <div class="row mx-lg-n5">
+      <div class="col-6 py-3 px-lg-5">
+        <h4>Navigation</h4>
+        <p>Home</p>
+        <p>About</p>
+        <p>Destinations</p>
+        <p>Gallery</p>
+      </div>
+      <div class="col-6 py-3 px-lg-5">
+        <h4>Contact Us</h4>
+        <br>
+        <p>+44 1434123456</p>
+        <br>
+        <div class="row3">
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-reddit"></a>
+        </div>
+      </div>
+    </div>
+  </div> <!-- end of footer div -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

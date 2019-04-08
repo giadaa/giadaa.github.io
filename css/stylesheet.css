@@ -1,0 +1,92 @@
+.jumbotron {
+  background-image: url("../images/snow_header.jpg");
+  height: 105vh;
+  margin-bottom: 0;
+}
+
+#footer {
+  background-color: #C6C6C6;
+  height: 45vh;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  text-align: center;
+}
+
+#about_container {
+  height: 180vh;
+  background-color: #D0F1F3;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#upload_image {
+  height:110vh;
+  background-color: #F2FBFC;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.destinations {
+  text-align: center;
+}
+
+#continents-list {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  text
+}
+
+#continents-list li {
+  width: 25%;
+}
+
+.hover:hover {
+  color: #3DC0CA;
+}
+
+.card-body {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.about_header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-reddit {
+  background: #FF4301;
+  color: white;
+}

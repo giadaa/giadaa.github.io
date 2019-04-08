@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Snowboard Base</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <!-- Nav Bar-->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="/Users/JadeHolden/Desktop/snowboarding_website/index.html">Snowboard Base</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-sm-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/Users/JadeHolden/Desktop/snowboarding_website/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Users/JadeHolden/Desktop/snowboarding_website/index.html#about_container">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/Users/JadeHolden/Desktop/snowboarding_website/destinations.html">Destinations<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Users/JadeHolden/Desktop/snowboarding_website/gallery.html">Gallery</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-sm-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav><!-- end of nav bar -->
+
+<!-- start of main body container -->
+  <div class="container">
+    <br>
+    <h1 class="destinations">
+      Destinations
+    </h1>
+    <br>
+
+    <!-- Filter container -->
+    <ul id="continents-list">
+      <li>
+        <p> Filters: </p>
+      </li>
+      <li>
+        <p class="hover" id="show-europe"> Europe </p>
+      </li>
+      <li>
+        <p class="hover" id="show-n-america"> North America </p>
+      </li>
+      <li>
+        <p class="hover" id="show-s-america"> South America </p>
+      </li>
+      <li>
+        <p class="hover" id="show-asia"> Asia & Oceania </p>
+      </li>
+    </ul>
+
+    <!-- start of cards -->
+    <div class="row row1">
+      <div class="col-sm-3 europe">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/bansko.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bansko, Bulgaria</h5>
+            <p class="card-text">Beautiful scenery, perfect for beginners with mainly blue and red slopes.</p>
+            <a href="https://www.google.co.uk/maps/place/2770+Bansko,+Bulgaria/@41.8356983,23.4694057,14z/data=!3m1!4b1!4m5!3m4!1s0x14abaeb946493c25:0xd6b0eaa049fe85c7!8m2!3d41.8404088!4d23.4856796" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 asia">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/japan.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fujiten, Japan</h5>
+            <p class="card-text">The resort of Fujiten has breathtaking views of Mount Fuji. One that cannot be missed.</p>
+            <a href="https://www.google.co.uk/maps/place/Fujiten+Snow+Resort/@35.9136481,133.3822395,5.84z/data=!4m5!3m4!1s0x601bdfb6ce188d1b:0xd6531a3a45b83a38!8m2!3d35.4420511!4d138.6879342" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 south-america">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/argentina.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cerro Castor, Argentina</h5>
+            <p class="card-text">Beautiful scenery, perfect for beginners with mainly blue and red slopes.</p>
+            <a href="https://www.google.co.uk/maps/place/Cerro+Castor/@-53.7693672,-72.2957481,6.01z/data=!4m5!3m4!1s0xbc4c100f496db833:0x858af6589314f1ed!8m2!3d-54.724177!4d-68.017001" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3  north-america">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/whistler.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Whistler, Canada</h5>
+            <p class="card-text">Beautiful scenery, perfect for beginners with mainly blue and red slopes.</p>
+            <a href="https://www.google.co.uk/maps/place/Whistler,+BC,+Canada/@50.3010891,-123.9088282,7.3z/data=!4m5!3m4!1s0x54873cb203957b87:0x4ab741e875f5cff6!8m2!3d50.1163196!4d-122.9573563" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row2">
+      <div class="col-sm-3 europe">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/switzerland.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Switzerland</h5>
+            <p class="card-text">Beautiful scenery, perfect for beginners with mainly blue and red slopes.</p>
+            <a href="https://www.google.co.uk/maps/place/Switzerland/@46.8077126,7.1029834,8z/data=!3m1!4b1!4m5!3m4!1s0x478c64ef6f596d61:0x5c56b5110fcb7b15!8m2!3d46.818188!4d8.227512" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 south-america">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/chile.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Club Andino, Chile</h5>
+            <p class="card-text">Beautiful scenery, perfect for beginners with mainly blue and red slopes.</p>
+            <a href="https://www.google.co.uk/maps/place/Club+Andino/@-53.5098082,-73.1845787,6.32z/data=!4m5!3m4!1s0xbdb27b70c4764d47:0x156c81c4a1524ca3!8m2!3d-53.1560317!4d-71.0500271" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 europe">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/austria.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Austria</h5>
+            <p class="card-text">Beautiful scenery, perfect for beginners with mainly blue and red slopes.</p>
+            <a href="https://www.google.co.uk/maps/place/Austria/@47.6746017,11.1023003,7z/data=!3m1!4b1!4m5!3m4!1s0x476d079b259d2a7f:0x1012d47bdde4c1af!8m2!3d47.516231!4d14.550072" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 asia">
+        <div class="card" style="width: 18rem;">
+          <img src="Images/newzealand.jpg" width="250px" height="250px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">New Zealand</h5>
+            <p class="card-text">Beautiful scenery, perfect for beginners with mainly blue and red slopes.</p>
+            <a href="https://www.google.co.uk/maps/place/New+Zealand/@-41.9207997,169.1857489,6.08z/data=!4m5!3m4!1s0x6d2c200e17779687:0xb1d618e2756a4733!8m2!3d-40.900557!4d174.885971" class="btn btn-primary">Let's go</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+
+
+
+  </div> <!-- end of main body container -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
