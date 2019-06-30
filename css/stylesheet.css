@@ -1,12 +1,13 @@
 .jumbotron {
   background-image: url("../images/snow_header.jpg");
-  height: 105vh;
+  height: 198vh;
   margin-bottom: 0;
+  background-repeat: no-repeat;
 }
 
 #footer {
   background-color: #C6C6C6;
-  height: 45vh;
+  height: 40vh;
   padding-top: 2vh;
   padding-bottom: 4vh;
   text-align: center;
@@ -35,7 +36,6 @@
   list-style: none;
   text-align: center;
   display: flex;
-  text
 }
 
 #continents-list li {
