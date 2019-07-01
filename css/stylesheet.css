@@ -22,7 +22,7 @@
 
 #upload_image {
   height:100vh;
-  background-color: #F2FBFC;
+  background-image: url("../images/submit.jpg");
   text-align: center;
   padding-top: 50px;
 }
