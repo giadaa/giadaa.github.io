@@ -1,4 +1,3 @@
-/*
 //script for destinations card filter
 
 //europe
@@ -37,8 +36,6 @@ $("#show-asia").click(function(){
   $(".asia").show();
   $(".asia").appendTo(".row1");
 });
-*/
-
 
 
 

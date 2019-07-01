@@ -3,9 +3,6 @@
 
 //europe
 $("#show-europe").click(function(){
- // $(".asia").show();
- // $(".south-america").show();
- // $(".north-america").show();
   $(".europe").show();
   $(".asia").hide();
   $(".south-america").hide();
@@ -15,10 +12,7 @@ $("#show-europe").click(function(){
 
 //north america
 $("#show-n-america").click(function(){
- // $(".asia").show();
-  //$(".south-america").show();
   $(".north-america").show();
-  //$(".europe").show();
   $(".asia").hide();
   $(".south-america").hide();
   $(".europe").hide();
@@ -27,10 +21,7 @@ $("#show-n-america").click(function(){
 
 //south america
 $("#show-s-america").click(function(){
-//  $(".asia").show();
   $(".south-america").show();
- // $(".north-america").show();
- // $(".europe").show();
   $(".asia").hide();
   $(".north-america").hide();
   $(".europe").hide();
@@ -40,9 +31,6 @@ $("#show-s-america").click(function(){
 //asia and oceania
 $("#show-asia").click(function(){
   $(".asia").show();
- // $(".south-america").show();
- // $(".north-america").show();
- // $(".europe").show();
   $(".north-america").hide();
   $(".south-america").hide();
   $(".europe").hide();
