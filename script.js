@@ -7,6 +7,7 @@ $("#show-europe").click(function(){
   $(".south-america").hide();
   $(".north-america").hide();
   $(".europe").show();
+  $(".europe").appendTo(".row1");
 
 });
 
@@ -16,6 +17,7 @@ $("#show-n-america").click(function(){
   $(".south-america").hide();
   $(".europe").hide();
   $(".north-america").show();
+  $(".north-america").appendTo(".row1");
 });
 
 //south america
@@ -24,6 +26,7 @@ $("#show-s-america").click(function(){
   $(".north-america").hide();
   $(".europe").hide();
   $(".south-america").show();
+   $(".south-america").appendTo(".row1");
 });
 
 //asia and oceania
@@ -32,6 +35,7 @@ $("#show-asia").click(function(){
   $(".south-america").hide();
   $(".europe").hide();
   $(".asia").show();
+  $(".asia").appendTo(".row1");
 });
 */
 
