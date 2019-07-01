@@ -1,6 +1,6 @@
 .jumbotron {
   background-image: url("../images/snow_header.jpg");
-  height: 92vh;
+  height: 84vh;
   margin-bottom: 0;
   background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@
 }
 
 #upload_image {
-  height:110vh;
+  height:100vh;
   background-color: #F2FBFC;
   text-align: center;
   padding-top: 50px;
