@@ -14,7 +14,7 @@
 }
 
 #about_container {
-  height: 180vh;
+  height: 150vh;
   background-color: #D0F1F3;
   padding-left: 50px;
   padding-right: 50px;
@@ -91,12 +91,7 @@
   color: white;
 }
 
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
 .link1 {
-  color: white;
+  color: #343a40;
   text-decoration: none;
 }
